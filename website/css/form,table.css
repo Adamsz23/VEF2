@@ -2,10 +2,15 @@
     width: 60%;
     margin: auto;
     border-collapse: collapse;
-    background-color:hsl(27, 35%, 42%);
-    border: solid hsl(27, 36%, 35%);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    color: white;
+}
+td:nth-child(1) {
+    background-color: hsl(27, 32%, 44%);
+}
+td:nth-child(2) {
+    background-color: hsl(27, 32%, 28%);
 }
