@@ -2,18 +2,14 @@
     width: 60%;
     margin: auto;
     border-collapse: collapse;
+    background-color:hsl(27, 35%, 42%);
     border: solid hsl(27, 36%, 35%);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.m {
-    background-color:hsl(134, 93%, 28%);
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
-.l {
-    background-color:hsl(49, 100%, 50%);
-}
-.w {
-    background-color:hsl(27, 35%, 41%);
-}
+  
