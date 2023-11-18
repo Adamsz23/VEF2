@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="HTML layout, CSS Grid, Responsive Design">
+        <meta name="author" content="Adam Szczubelek">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Lego Minecraft</h1>
+    </header>
+    <nav class="topmenu">
+        <a href="index.html">Minecraft</a> 
+        <a href="information,table.html">Information</a>
+    </nav>
+    <main class="main">
+        <p id="1">
+            <section class="col-1">
+                <div>
+                    <form>
+                        <table>
+                            <thead>
+                                <legend><h2>Log in | Sign in | Order</h2></legend>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Name:
+                                    </td>
+                                    <td><input type="text" name="name" placeholder="Full name" required="name required" autocomplete="name">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Gender:</td>
+                                    <td>
+                                    <input type="radio" name="gender" value="he" id="he">
+                                    <label for="he">He</label>
+                                    <input type="radio" name="gender" value="she" id="she">
+                                    <label for="she">She</label>
+                                    <input type="radio" name="gender" value="they" id="they">
+                                    <label for="they">They</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Phone number:</td>
+                                    <td><input type="text" name="phone number" placeholder="Telephone (7 digits)" required=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Email:                                
+                                    </td>
+                                    <td><input type="email" name="email" placeholder="Email address" required="" autocomplete="email">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="available-products">Available Products</label>
+                                    </td>
+                                    <td>
+                                        <select id="available-products" name="available products" required aria-label="Available Products">
+                                            <option value="">--Please select an option--</option>
+                                            <option value="1">The Creeper Ambush</option>
+                                            <option value="2">The Nether Bastion</option>
+                                            <option value="3">The Deep Dark Battle</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>How many sets:
+                                    </td>
+                                    <td><input type="number" placeholder="0" required="mark value" id="sets">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Date of shipping:</td>
+                                    <td><input type="date" placeholder="date"required="date required"></td>
+                                </tr>
+                            </tbody>
+                            <tfooter>
+                                <tr>
+                                    <td>Comment:</td>
+                                    <td><textarea rows="4" name="comment" placeholder="Comment"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>Sign me up on the mailing list:                                     
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" name="postlist" value="ok" id="plist">
+                                        <label for="plist">Sign me up on the mailing list</label>
+                                        <input type="checkbox" name="subscription" value="ok" id="sub">
+                                        <label for="sub">Subscribe</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>                                     
+                                    </td>
+                                    <td>
+                                        <input type="submit"/>
+                                    </td>
+                                </tr>
+                            </tfooter>
+                        </table>
+                    </form> 
+                </div>
+            </section>
+        </p>      
+    </main>
+    <footer class="footer">  
+      <h3>Lego  Minecraft  sími: 0000000  netfang: LegoMinecraft@fake.com</h3>
+    </footer>
+</body>
+</html>
