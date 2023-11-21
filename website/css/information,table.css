@@ -8,21 +8,27 @@
     padding-right: 10px;
     color: white;
 }
+
 th:nth-child(1) {
     background-color: hsl(26, 35%, 49%);
 }
+
 th:nth-child(2) {
     background-color: hsl(25, 33%, 31%);
 }
+
 th:nth-child(3) {
     background-color: hsl(26, 35%, 24%);
 }
+
 td:nth-child(2) {
     background-color: hsl(26, 35%, 49%);
 }
+
 td:nth-child(3) {
     background-color: hsl(25, 33%, 31%);
 }
+
 td:nth-child(1) {
     background-color: hsl(26, 35%, 24%);
 }
