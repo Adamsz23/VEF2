@@ -25,10 +25,6 @@
     background-color: hsl(49, 100%, 50%);
 }
 
-.dropdown:hover .dropbtn {
-
-}
-
 .dropbtn {
     width: 90px;
     height: 90px;
