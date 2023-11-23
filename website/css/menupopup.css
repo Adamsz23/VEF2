@@ -1,7 +1,7 @@
 .box {
     width: 50%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.2);
+    background: black;
     padding: 35px;
     border: 2px solid #fff;
     border-radius: 20px/50px;
@@ -13,14 +13,10 @@
     font-size: 1em;
     padding: 10px;
     color: #fff;
-    border: 2px solid #06D85F;
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
-  }
-  .button:hover {
-    background: #06D85F;
   }
   
   .overlay {
@@ -51,7 +47,7 @@
   
   .popup h2 {
     margin-top: 0;
-    color: #333;
+    color:black;
     font-family: Tahoma, Arial, sans-serif;
   }
   .popup .close {
@@ -62,10 +58,10 @@
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #333;
+    color:black;
   }
   .popup .close:hover {
-    color: #06D85F;
+    color: black;
   }
   .popup .content {
     max-height: 30%;
