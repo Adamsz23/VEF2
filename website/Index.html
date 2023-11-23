@@ -12,28 +12,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/Base.css">
     <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/drop down menu.css">
-    <link rel="stylesheet" href="css/pop up menu.css">
-    <link rel="stylesheet" href="css/accord. menu.css">
+    <link rel="stylesheet" href="css/menudropdown.css">
+    <link rel="stylesheet" href="css/menupopup.css">
+    <link rel="stylesheet" href="css/menuaccordion.css">
+    <link rel="stylesheet" href="css/topmenu.css">
 </head>
 <body>
     <div class="dropdown">
         <img src="images/lego.png" alt="logo" class="dropbtn"></button>
         <div class="dropdown-content">
             <a href="index.html">Minecraft</a>
-            <a href="information,table.html">Information</a>
-            <a href="accord. menu.html">accord. menu</a>
+            <a href="tableinformation.html">Information</a>
+            <a href="menuaccordion.html">accord. menu</a>
         </div>
     </div>
     <header class="header">
         <h1>Lego Minecraft
         </h1>
     </header>
-    <nav class="topmenu">
-        <a href="index.html">Minecraft</a> 
-        <a href="information,table.html">Information</a>
-        <a href="accord. menu.html">accord. menu</a>
-    </nav>
+    <section class="topnav">
+        <nav>
+            <input type="checkbox" id="toggle" class="menuInput">
+            <label for="toggle" class="menuLabel"><span class="icon-home"></span>X</label>
+            <div class="topmenu">
+                <a href="index.html">Minecraft</a> 
+                <a href="tableinformation.html">Information</a>
+                <a href="menuaccordion.html">accord. menu</a>
+                <div>
+                    <span>face</span> <span>inst</span> <span>pint</span> 
+                </div>
+            </div>
+        </nav>
+    </section>
     <main class="main">
         <p id="1">
             <section class="col-3">
