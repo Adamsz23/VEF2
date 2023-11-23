@@ -1,10 +1,10 @@
-*{
+*{ 
     margin: auto;
     list-style: none;
     text-decoration: none;
 }
 
-.mainMenu{
+.mainMenu {
     margin: center;
     width: 325px;
     display: block;
@@ -12,12 +12,12 @@
     overflow: hidden;
 }
 
-.item{
+.item {
     
     overflow: hidden;
 }
 
-.btn{
+.btn {
     display: block;
     padding: 15px 20px;
     background-color: hsl(134, 93%, 28%);
@@ -25,7 +25,7 @@
     position: relative;
 }
 
-.btn:before{
+.btn:before {
     content: '';
     position: absolute;
     width: 0;
@@ -42,14 +42,14 @@
     margin-right: 10px;
 }
 
-.subMenu{
+.subMenu {
     background:hsl(27, 36%, 28%);
     overflow: hidden;
     transition: max-height 0.7s;
     max-height: 0;
 }
 
-.subMenu a{
+.subMenu a {
     display: block;
     padding: 15px 20px;
     color: #fff;
@@ -57,13 +57,13 @@
     position: relative;
 }
 
-.subMenu a:before{
+.subMenu a:before {
     content: '';
     opacity: 0;
     transition: opacity 0.3s;
 }
 
-.subMenu a:before{
+.subMenu a:before {
     content: '';
     position: absolute;
     height: 0;
@@ -76,13 +76,13 @@
     border-bottom: 24px solid transparent;
 }
 
-.subMenu a:after{
+.subMenu a:after {
     content: '';
     opacity: 0;
     transition: opacity 0.3s;
 }
 
-.subMenu a:after{
+.subMenu a:after {
     content: '';
     position: absolute;
     height: 0;
@@ -95,17 +95,17 @@
     border-bottom: 24px solid transparent;
 }
 
-.subMenu a:hover{ 
+.subMenu a:hover { 
     background: -moz-linear-gradient(top,hsl(27, 32%, 44%),hsl(27, 32%, 44%));
     background: -webkit-linear-gradient(top,hsl(27, 32%, 44%),hsl(27, 32%, 44%));
     background: linear-gradient(to bottom,hsl(27, 32%, 44%),hsl(27, 32%, 44%));
     transition: all 0.3s;
 }
 
-.subMenu a:last-child{
+.subMenu a:last-child {
     border:none;
 }
 
-.item:target .subMenu{
+.item:target .subMenu {
     max-height: 10em;
 }

@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header {
     padding-top: 5%;
     padding-bottom: 2%;
     text-align: center;
@@ -33,7 +33,7 @@ header{
     background-color:hsl(49, 100%, 50%);
 }
 
-.main{
+.main {
     padding: 2%;
     background-color:hsl(27, 36%, 35%);
 }
@@ -51,22 +51,22 @@ header{
     text-decoration: none;
 }
 
-h1{
+h1 {
     font-size: 3em;
     color: white;
     font-weight: 800;
 }
 
-h2{
+h2 {
     color: white;
 }
 
-h3{
+h3 {
     color: white;
     text-align: center;
 }
 
-footer{
+footer {
     padding: 1%;
     background-color:hsl(49, 100%, 50%);
 }

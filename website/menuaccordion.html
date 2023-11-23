@@ -24,13 +24,20 @@
     <section class="topnav">
         <nav>
             <input type="checkbox" id="toggle" class="menuInput">
-            <label for="toggle" class="menuLabel"><span class="icon-home"></span>X</label>
+            <label for="toggle" class="menuLabel"><span class="icon-home"></span>❒</label>
             <div class="topmenu">
                 <a href="index.html">Minecraft</a> 
                 <a href="tableinformation.html">Information</a>
-                <a href="menuaccordion.html">accord. menu</a>
-                <div>
-                    <span>face</span> <span>inst</span> <span>pint</span> 
+                <a href="menuaccordion.html">accordionmenu</a>
+                <a class="button" href="#popup1">Pop up menu</a>
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <h2>Did you logged in?</h2>
+                        <a class="close" href="#">&times;</a>
+                        <div class="content">
+                            Make sure you logged in, to see more personalized content.
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
