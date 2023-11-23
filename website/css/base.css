@@ -9,8 +9,10 @@ body {
 }
 
 header{
+    padding-top: 5%;
+    padding-bottom: 2%;
     text-align: center;
-    background-color:hsl(49, 100%, 50%);
+    background-color:hsl(134, 93%, 28%);
 }
 
 .topmenu {
