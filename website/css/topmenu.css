@@ -1,7 +1,3 @@
-/* Efnisyfirlit - mobile
-  ======================================== */
-
-/* EKKI stíla input og label tögin - búið til klasa */
 input[type="checkbox"].menuInput {
     display: none;                    
   }
@@ -13,15 +9,15 @@ input[type="checkbox"].menuInput {
     height: 1.6em;
     font-size: 2em;
     text-align: center;
-    color: white;
-    background-color: rgba(6, 94, 102, 85%);
+    color:white;
+    background-color:hsl(134, 93%, 28%);
     border-radius: 50%;
   
     transition: all .4s ease;
     z-index: 999;
   }
   .menuInput:checked + .menuLabel {
-    transform: translate(-10px, -3px) rotate(-90deg) ; /* Standard syntax */
+    transform: translate(-10px, -3px) rotate(-90deg);
     transition: all .5s ease;
   }
   .menuInput:checked ~ .topmenu {
@@ -35,12 +31,12 @@ input[type="checkbox"].menuInput {
     display: block;
     position: fixed;
     top: 3em;
-    left: -40em; /*  ath! er fyrir utan vafrann ;*/
+    left: -40em;
     z-index: 980;
     padding: 0;
     margin: 0;
     width: 70%;
-    background-color: rgb(6, 94, 102);
+    background-color:hsl(134, 93%, 28%);
     transition: all .5s ease;
   }
   
@@ -54,23 +50,21 @@ input[type="checkbox"].menuInput {
     padding: 1em;
     margin: 0;
     letter-spacing: 2px;
-    border-bottom: 1px solid rgb(33, 140, 150);;
+    border-bottom: 1px solid hsl(134, 93%, 28%);;
   }
   
   .topmenu a:hover,
   .topmenu a:active,
   .topmenu a:focus,
   .logo a:hover {
-    background-color: rgb(33, 140, 150);;
+    background-color:hsl(134, 93%, 28%);;
     color: #fff;
     margin-bottom: 0;
     transition: all .3s ease;
   } 
-  .topmenu a:current {
-    color: orangered;
-  }
+  
   .topnav {
-    background-color: rgb(6, 94, 102);
+    background-color:hsl(134, 93%, 28%);
   }
   .topnav p {
     margin: 0;
@@ -103,17 +97,15 @@ input[type="checkbox"].menuInput {
       left: 1em;
       width: 100%;
       background-color: transparent;
-      transition: none;   /*ath! verður að taka út kvikun*/
+      transition: none;
     }
     .topmenu a {
       padding: .6em 1.5em .5em 1.5em;
       border-bottom: none;
       background-color: transparent;
     }
-    /* label - menu tekið út */  
+ 
     .menuLabel {
       display: none;
     }
   }
-  
-  
