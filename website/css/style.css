@@ -37,3 +37,8 @@
 .icon-stackoverflow:before {
   content: "\ead0";
 }
+
+svg {
+    fill: white;
+}
+  
