@@ -37,6 +37,15 @@
 .icon-stackoverflow:before {
   content: "\ead0";
 }
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-youtube:before {
+    content: "\ea9d";
+}
 
 svg {
     height: 100px;
