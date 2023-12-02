@@ -67,16 +67,15 @@ h3 {
     text-align: center;
 }
 
-footer {
+footer a {
     padding: 1%;
     background-color:hsl(49, 100%, 50%);
+    text-decoration: none;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 img {
     width: 100%;
     height: auto;
-}
-
-a {
-    text-decoration: none;
 }
