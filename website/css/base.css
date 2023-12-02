@@ -39,15 +39,17 @@ header {
 }
 
 .button {
+    border-radius: 15%;
     display: block;
     margin: auto;
-    width: 6em;
+    width: 5em;
+    height: 4em;
     font-size: 1em;
     background-color: hsl(134, 93%, 28%);
     border: none;
     color: white;
     padding: 1em 1em;
-    text-align: center;
+    text-align:center;
     text-decoration: none;
 }
 
