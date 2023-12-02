@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Splash Screen -->
-    <div class="splash-screen">
-        <img class="splash-screen-logo" src="images/creeperhead.png" alt="Logo">
-    </div>
-            
-    <!-- Main Content -->
-    <div id="main-content" style="display: none;">
-    <!-- Your main content goes here -->
-    </div>
-            
-    <script>
-        window.onload = function() {
-    // Hide splash screen and show main content after 3 seconds
-        setTimeout(function() {
-            document.querySelector('.splash-screen').style.display = 'none';
-            document.getElementById('main-content').style.display = 'block';
-            }, 3000);
-    };
-    </script>
+        <!-- Splash Screen -->
+        <div class="splash-screen">
+            <img class="splash-screen-logo" src="images/creeperhead.png" alt="Logo">
+        </div>
+                
+        <!-- Main Content -->
+        <div id="main-content" style="display: none;">
+        <!-- Your main content goes here -->
+        </div>
+                
+        <script>
+            window.onload = function() {
+        // Hide splash screen and show main content after 3 seconds
+            setTimeout(function() {
+                document.querySelector('.splash-screen').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+                }, 3000);
+        };
+        </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,8 +54,8 @@
                 <a href="index.html"><span class="icon-cube"></span>Minecraft</a> 
                 <a href="tableinformation.html"><span class="icon-notification"></span>Information</a>
                 <a href="menuaccordion.html"><span class="icon-stackoverflow"></span>accordionmenu</a>
-                <a class="button1" href="#popup1"><span class="icon-question"></span>Popupmenu</a>
-                <div id="popup1" class="overlay">
+                <a href="#popup"><span class="icon-question"></span>Popupmenu</a>
+                <div id="popup" class="overlay">
                     <div class="popup">
                         <h2>Did you logged in?</h2>
                         <a class="close" href="#">&times;</a>

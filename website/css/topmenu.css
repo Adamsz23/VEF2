@@ -1,10 +1,10 @@
 input[type="checkbox"].menuInput {
-    display: none;                    
+    display: none;                   
 }
 .menuLabel {
     position: fixed;
     top: .5em;
-    left: .5em;
+    left: .0em;
     width: 1.6em;
     height: 1.6em;
     font-size: 2em;
@@ -27,14 +27,13 @@ input[type="checkbox"].menuInput {
     z-index: 980;
     transition: all .5s ease;
 }
+
 .topmenu {
     display: block;
     position: fixed;
     top: 3em;
     left: -40em;
     z-index: 980;
-    padding: 0;
-    margin: 0;
     width: 70%;
     background-color:hsl(49, 100%, 50%);
     transition: all .5s ease;
@@ -42,15 +41,11 @@ input[type="checkbox"].menuInput {
   
 .topmenu a {
     display: block;     
-    font-size: .9em;
+    font-size: .15epx;
     color: rgb(255,255,255);
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    padding: 1em;
-    margin: 0;
-    letter-spacing: 2px;
-    border-bottom: 1px solid hsl(49, 100%, 50%);;
+    padding: 1.5em;
 }
   
 .topmenu a:hover,
@@ -58,8 +53,6 @@ input[type="checkbox"].menuInput {
 .topmenu a:focus,
 .logo a:hover {
     background-color:hsl(134, 93%, 28%);
-    color:white;
-    margin-bottom: 0;
     transition: all .3s ease;
 } 
   
@@ -67,11 +60,7 @@ input[type="checkbox"].menuInput {
     background-color:hsl(49, 100%, 50%);
 }
 .topnav p {
-    margin: 0;
-    padding: .4em 0;
-    color: #fff;
-    letter-spacing: .1em;
-    text-align: center;
+    color: white;
 }
   
 @media screen and (min-width: 48em) {
@@ -87,7 +76,6 @@ input[type="checkbox"].menuInput {
 @media screen and (min-width: 60em) {
 .topnav {
     display: grid;
-    grid-template-columns: 1fr 4fr;
     }
 .topmenu {
     display: flex;
@@ -98,11 +86,6 @@ input[type="checkbox"].menuInput {
     width: 100%;
     background-color: transparent;
     transition: none;
-}
-.topmenu a {
-    padding: .6em 1.5em .5em 1.5em;
-    border-bottom: none;
-    background-color: transparent;
 }
 
 .menuLabel {
