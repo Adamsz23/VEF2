@@ -49,6 +49,12 @@
 .icon-pinterest:before {
   content: "\ead1";
 }
+.icon-circle-right:before {
+    content: "\ea42";
+}
+.icon-circle-left:before {
+    content: "\ea44";
+}
 
 svg {
     height: 100px;
