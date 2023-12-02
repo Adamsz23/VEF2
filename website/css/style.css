@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c8qbai');
-  src:  url('fonts/icomoon.eot?c8qbai#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?c8qbai') format('truetype'),
-    url('fonts/icomoon.woff?c8qbai') format('woff'),
-    url('fonts/icomoon.svg?c8qbai#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?eniitq');
+  src:  url('fonts/icomoon.eot?eniitq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?eniitq') format('truetype'),
+    url('fonts/icomoon.woff?eniitq') format('woff'),
+    url('fonts/icomoon.svg?eniitq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -34,11 +34,16 @@
 .icon-question:before {
   content: "\ea09";
 }
+.icon-circle-right:before {
+  content: "\ea42";
+  font-size: 50px;
+}
+.icon-circle-left:before {
+  content: "\ea44";
+  font-size: 50px;
+}
 .icon-instagram:before {
   content: "\ea92";
-}
-.icon-twitter:before {
-  content: "\ea96";
 }
 .icon-youtube:before {
   content: "\ea9d";
@@ -48,12 +53,6 @@
 }
 .icon-pinterest:before {
   content: "\ead1";
-}
-.icon-circle-right:before {
-    content: "\ea42";
-}
-.icon-circle-left:before {
-    content: "\ea44";
 }
 
 svg {

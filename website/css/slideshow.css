@@ -50,7 +50,7 @@ http://stackoverflow.com/a/34696029/383904
 }
 
 .CSSgal .prevNext a {
-	background: #fff;
+    color: white;
 	position: absolute;
 	width:       60px;
 	height:      60px;
