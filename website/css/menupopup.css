@@ -8,18 +8,9 @@
     background-clip: padding-box;
     text-align: center;
   }
+
   
-  .button1 {
-    font-size: 1em;
-    padding: 10px;
-    color: #fff;
-    border-radius: 20px/50px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
-  }
-  
-  .overlay {
+.overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -29,13 +20,13 @@
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-  }
-  .overlay:target {
+}
+.overlay:target {
     visibility: visible;
     opacity: 1;
-  }
+}
   
-  .popup {
+.popup {
     margin: 70px auto;
     padding: 20px;
     background: #fff;
@@ -43,14 +34,14 @@
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
-  }
+}
   
-  .popup h2 {
+.popup h2 {
     margin-top: 0;
     color:black;
     font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
+}
+.popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -59,20 +50,20 @@
     font-weight: bold;
     text-decoration: none;
     color:black;
-  }
-  .popup .close:hover {
+}
+.popup .close:hover {
     color: black;
-  }
-  .popup .content {
+}
+.popup .content {
     max-height: 30%;
     overflow: auto;
-  }
-  
-  @media screen and (max-width: 700px){
+}
+
+@media screen and (max-width: 700px){
     .box{
       width: 70%;
     }
     .popup{
       width: 70%;
     }
-  }
+}
