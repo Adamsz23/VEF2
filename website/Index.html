@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <img class="splash-screen-logo" src="images/creeperhead.png" alt="Logo">
+    </div>
+            
+    <!-- Main Content -->
+    <div id="main-content" style="display: none;">
+    <!-- Your main content goes here -->
+    </div>
+            
+    <script>
+        window.onload = function() {
+    // Hide splash screen and show main content after 3 seconds
+        setTimeout(function() {
+            document.querySelector('.splash-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+            }, 3000);
+    };
+    </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +35,7 @@
     <link rel="stylesheet" href="css/menupopup.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/splashscreen.css">
 </head>
 <body>
     <header class="header">
