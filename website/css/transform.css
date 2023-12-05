@@ -1,10 +1,11 @@
-.discounts {
-    width: 300px;
-    height: 100px;
+.discount {
+    width: 90px;
+    height: 60px;
     background-color: yellow;
-    border: 1px solid black;
-  }
-  
-div#myDiv {
+    color: red;
     transform: rotate(20deg);
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
 }
