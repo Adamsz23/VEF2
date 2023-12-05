@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    padding-top: 7%;
-    padding-bottom: 1%;
+    padding-top: auto;
+    padding-bottom: auto;
     text-align: center;
     background-color:hsl(134, 93%, 28%);
 }
