@@ -3,8 +3,8 @@ input[type="checkbox"].menuInput {
 }
 .menuLabel {
     position: fixed;
-    top: .5em;
-    left: .0em;
+    top: .9em;
+    left: .9em;
     width: 1.6em;
     height: 1.6em;
     font-size: 2em;
