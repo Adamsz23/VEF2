@@ -21,33 +21,9 @@ header {
 }
 }
 
-.topmenu {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    background: hsl(134, 93%, 28%);
-}
-
-.topmenu a {
-    display: inline-block;
-    padding: 2%;
-    color: white;
-    text-decoration: none;
-}
-
-.topmenu a:hover {
-    background-color: hsl(49, 100%, 50%);
-}
-
 .main {
     padding: 2%;
     background-color: hsl(27, 36%, 35%);
-}
-
-a {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 2px;
 }
 
 .button {
@@ -74,13 +50,12 @@ a {
     border-radius: 15%;
     display: block;
     margin: auto;
-    width: 90px;
-    height: 60px;
+    
+    
     font-size: 20px;
     background-color: hsl(134, 93%, 28%);
     color: white;
     text-align: center;
-    text-decoration: none;
     padding-top: 20px;
     transition: width 0.5s;
 }

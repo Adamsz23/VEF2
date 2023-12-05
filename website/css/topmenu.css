@@ -29,6 +29,24 @@ input[type="checkbox"].menuInput {
 }
 
 .topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background: hsl(134, 93%, 28%);
+}
+
+.topmenu a {
+    display: inline-block;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.topmenu a:hover {
+    background-color: hsl(49, 100%, 50%);
+}
+
+.topmenu {
     display: block;
     position: fixed;
     top: 3em;

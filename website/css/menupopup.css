@@ -42,19 +42,20 @@
 }
 .popup .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: -6px;
+    right: 3px;
     transition: all 200ms;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     color:black;
+    padding: 1%;
 }
 .popup .close:hover {
     color: black;
 }
 .popup .content {
-    max-height: 30%;
+    max-height: 20%;
     overflow: auto;
 }
 
