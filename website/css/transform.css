@@ -1,4 +1,5 @@
 .discount {
+    margin-left: auto;
     width: 90px;
     height: 60px;
     background-color: yellow;
@@ -8,4 +9,9 @@
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+    transition: width 0.5s;
+}
+.discount:hover {
+    padding: 15px;
+    width: 120px;
 }
