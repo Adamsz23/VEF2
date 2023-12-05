@@ -1,6 +1,7 @@
 input[type="checkbox"].menuInput {
     display: none;                   
 }
+
 .menuLabel {
     position: fixed;
     top: .9em;
@@ -16,23 +17,18 @@ input[type="checkbox"].menuInput {
     transition: all .4s ease;
     z-index: 999;
 }
+
 .menuInput:checked + .menuLabel {
     transform: translate(-10px, -3px) rotate(-90deg);
     transition: all .5s ease;
 }
+
 .menuInput:checked ~ .topmenu {
     position: fixed;
     top:3em;
     left: 0;
     z-index: 980;
     transition: all .5s ease;
-}
-
-.topmenu {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    background: hsl(134, 93%, 28%);
 }
 
 .topmenu a {
@@ -47,6 +43,7 @@ input[type="checkbox"].menuInput {
 }
 
 .topmenu {
+    justify-content: space-around;
     display: block;
     position: fixed;
     top: 3em;
@@ -55,6 +52,7 @@ input[type="checkbox"].menuInput {
     width: 70%;
     background-color:hsl(49, 100%, 50%);
     transition: all .5s ease;
+    
 }
   
 .topmenu a {
