@@ -40,6 +40,27 @@ input[type="checkbox"].menuInput {
     width: 70%;
     background-color:hsl(49, 100%, 50%);
     transition: all .2s ease;
+    
+    .icon-cube:before {
+        content: "\e901";
+        padding: 4%;
+        font-size: 25px;
+    }
+    .icon-notification:before {
+        content: "\ea08";
+        padding: 4%;
+        font-size: 25px
+    }
+    .icon-stackoverflow:before {
+        content: "\ead0";
+        padding: 4%;
+        font-size: 25px
+      }
+    .icon-question:before {
+        content: "\ea09";
+        padding: 4%;
+        font-size: 25px;
+      }
 }
   
 .topmenu a {
