@@ -83,7 +83,7 @@ a:hover {
     .icon-instagram:before {
         content: "\ea92";
         font-size: 40px;
-        background-image: linear-gradient( yellow, red, blue, rgb(255, 79, 108));
+        background-image: linear-gradient(blue, rgb(255, 79, 108), red, yellow);
         border-radius: 15%;
     }
 }
