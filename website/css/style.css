@@ -44,21 +44,15 @@
 }
 .icon-instagram:before {
   content: "\ea92";
-  font-size: 40px;
-  color: white;
 }
 .icon-youtube:before {
   content: "\ea9d";
-  font-size: 40px;
-  color: white;
 }
 .icon-stackoverflow:before {
   content: "\ead0";
 }
 .icon-pinterest:before {
   content: "\ead1";
-  font-size: 40px;
-  color: white;
 }
 
 svg {
