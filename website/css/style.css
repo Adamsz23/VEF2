@@ -66,3 +66,24 @@ svg {
     width: 100px;
     fill: white;
 }
+
+a:hover {
+
+    .icon-pinterest:before {
+        content: "\ead1";
+        font-size: 40px;
+        color: red;
+    }
+    
+    .icon-youtube:before {
+        content: "\ea9d";
+        font-size: 40px;
+        color: red;
+    }
+    .icon-instagram:before {
+        content: "\ea92";
+        font-size: 40px;
+        background-image: linear-gradient( yellow, red, blue, rgb(255, 79, 108));
+        border-radius: 15%;
+    }
+}
