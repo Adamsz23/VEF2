@@ -24,7 +24,7 @@ input[type="checkbox"].menuInput {
 
 .menuInput:checked ~ .topmenu {
     position: fixed;
-    top:3em;
+    top:5em;
     left: 0;
     z-index: 980;
     transition: all .5s ease;
